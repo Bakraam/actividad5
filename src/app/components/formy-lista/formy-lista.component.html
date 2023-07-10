@@ -1,0 +1,41 @@
+<!--Tipo formulario con input para capturar la noticia que se introduzca-->
+<!--Como quiero capturar el input, tengo que importar en app.module el FormsModule-->
+<!--ngModule es para coger lo que introduzca el usuario-->
+<section >
+    <div class="div-general">
+        <div class="formulario">
+            <p>Añade una nueva noticia</p>
+            <div>
+                <label for="title">Título</label>
+                <input type="text" placeholder="Introducir título" [(ngModel)]="newNoticia.titulo">
+            </div>
+
+            <div>
+                <label for="date">Fecha de publicación</label>
+                <input type="date" [(ngModel)]="newNoticia.fecha">
+            </div>
+                
+            <div>
+                <label for="img">Imagen</label>
+                <input type="text" placeholder="Introducir url de la imagen" [(ngModel)]="newNoticia.imagen">
+            </div>
+
+            <div>
+                <label for="text">Texto</label>
+                <textarea name="" id="" cols="30" rows="10" [(ngModel)]="newNoticia.texto">Introducir texto</textarea>
+            </div>
+
+            <button (click)="guardarNoticia()">Guardar</button>
+        </div>
+
+        <div class="cargar-noticias">
+            <div class="noticias">
+                <ul class="noticias__lista" [innerHTML]="cargarNoticias()">
+                    
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+

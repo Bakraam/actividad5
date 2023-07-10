@@ -1,0 +1,62 @@
+p{
+    font-size: x-large;
+    padding-bottom: 30px;
+}
+
+.div-general{
+    display:flex;
+    gap: 100px;
+    margin: 50px;
+}
+
+.formulario{
+    padding: 20px 20px 20px 90px;
+    width: 40vw;
+}
+
+label{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+button{
+    margin-top: 10px;
+    padding: 6px 12px 6px 12px;
+    
+    background-color: rgb(177, 240, 159);
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 1px rgba(194, 194, 194, 0.5);;
+}
+
+input{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.noticias{
+    justify-content: center;
+    padding: 20px;
+    width: 60vw;   
+}
+
+ul{
+    list-style: none;
+}
+
+.noticias__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 25px;
+}

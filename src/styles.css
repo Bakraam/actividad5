@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.noticia-titulo{
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+    width: 300px;
+}
+
+.noticia-imagen{
+padding: 10px 0px 10px 0px;
+}
+
+.noticia-fecha{
+    padding-bottom: 15px;
+    font-size: smaller;   
+}
+
+.noticia-texto{
+    font-size: smaller;
+    padding-bottom: 15px;
+    max-width: 300px;
+    text-align: justify;
+}
+
+.noticia-individual{
+    border:solid 1px black;
+    padding: 20px;
+    background-color: rgb(255, 239, 219);
+}

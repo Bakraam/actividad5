@@ -1,0 +1,14 @@
+header{
+    background-color: rgb(40, 40, 40);
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.cargar-noticias{
+    display: flex;
+    flex-wrap: wrap;
+}
